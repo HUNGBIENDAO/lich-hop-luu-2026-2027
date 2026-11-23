@@ -1,5 +1,5 @@
 import tailwindcss from '@tailwindcss/vite';export default defineConfig({
-  base: '/lich-nien-hoc/', // <-- Thêm dòng này (sửa lại cho đúng tên repo của bạn)
+  base: '/lich-hop-luu-2026-2027/', // <-- Thêm dòng này (sửa lại cho đúng tên repo của bạn)
   plugins: [react()],
 })
 
