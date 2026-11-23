@@ -1,4 +1,8 @@
-import tailwindcss from '@tailwindcss/vite';
+import tailwindcss from '@tailwindcss/vite';export default defineConfig({
+  base: '/lich-nien-hoc/', // <-- Thêm dòng này (sửa lại cho đúng tên repo của bạn)
+  plugins: [react()],
+})
+
 import react from '@vitejs/plugin-react';
 import fs from 'fs';
 import path from 'path';
